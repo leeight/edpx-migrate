@@ -64,7 +64,7 @@ exports.cli = {
         // 1. 创建package.json，如果不存在的话
         // 2. 把.edpproj/metadata的内容放到package.json的edp配置字段去
         // 3. 删除dep/packages.manifest文件
-        // 4. 如果有必要的话，创建.edpproj/dummy文件
+        // 4. 如果有必要的话，创建.edpproj/.dummy文件
         var cwd = process.cwd();
 
         if ( !isValidProject( cwd ) ) {
@@ -107,10 +107,10 @@ exports.cli = {
             fs.unlinkSync( manifestFile );
         }
 
-        // 创建.edpproj/dummy文件（if possible）
+        // 创建.edpproj/.dummy文件（if possible）
         if ( !fs.readdirSync( '.edpproj' ).length ) {
             // 如果是.edpproj是空目录了
-            fs.writeFileSync( path.join( '.edpproj', 'dummy' ),
+            fs.writeFileSync( path.join( '.edpproj', '.dummy' ),
                 'Please keep this file', 'utf-8' );
         }
     }
