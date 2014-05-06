@@ -1,14 +1,14 @@
 {
-  "name": "edpx-seed",
+  "name": "edpx-migrate",
   "version": "0.0.1",
-  "description": "edp user command seed",
+  "description": "自动迁移edp的项目，升级配置文件，重构目录结构等等",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ecomfe/edpx-seed.git"
+    "url": "git://github.com/leeight/edpx-migrate.git"
   },
   "keywords": [
     "edp"
@@ -16,7 +16,7 @@
   "author": "leeight@gmail.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ecomfe/edpx-seed/issues"
+    "url": "https://github.com/leeight/edpx-migrate/issues"
   },
-  "homepage": "https://github.com/ecomfe/edpx-seed"
+  "homepage": "https://github.com/leeight/edpx-migrate"
 }

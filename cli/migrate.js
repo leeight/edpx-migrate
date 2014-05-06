@@ -8,16 +8,16 @@
  
  
 /**
- * seed.js ~ 2014/04/01 11:12:59
+ * migrate.js ~ 2014/04/01 11:12:59
  * @author leeight(liyubei@baidu.com)
  * @version $Revision$ 
  * @description 
- * edp seed
+ * edp migrate
  **/
 exports.cli = {
-    description: 'edp seed command description',
+    description: '迁移edp项目的配置文件',
     main: function( args, opts ) {
-        console.log( 'See edp seed --help' );
+        console.log( 'See edp migrate --help' );
     }
 }
 
