@@ -1,6 +1,6 @@
 {
   "name": "edpx-migrate",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "自动迁移edp的项目，升级配置文件，重构目录结构等等",
   "main": "index.js",
   "scripts": {
