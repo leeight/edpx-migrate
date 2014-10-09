@@ -1,8 +1,6 @@
-edpx-seed
+edpx-migrate
 =========
 
-edp user command seed
+自动调整一下业务项目的目录结构，适应新的需求。
 
-`cli`目录是对外提供的命令，无关紧要的文件建议不要放到这里。
-
-`lib`目录是真正的实现逻辑
+1. .edpproj/metadata -> package.json#edp

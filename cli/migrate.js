@@ -16,10 +16,10 @@
  **/
 exports.cli = {
     description: '迁移edp项目的配置文件',
-    main: function( args, opts ) {
-        console.log( 'See edp migrate --help' );
+    main: function(args, opts) {
+        console.log('See edp migrate --help');
     }
-}
+};
 
 
 
