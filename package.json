@@ -16,7 +16,8 @@
   "dependencies": {
     "edp-config": "~1.0.2",
     "async": "^0.9.0",
-    "edp-core": "^1.0.28"
+    "edp-core": "^1.0.28",
+    "semver": "^4.0.3"
   },
   "author": "leeight@gmail.com",
   "license": "MIT",
